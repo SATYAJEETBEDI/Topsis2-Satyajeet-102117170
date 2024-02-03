@@ -32,3 +32,4 @@ On this csv file Topsis was performed using my own package at Pypi which can be 
 The result with topsis was stored in [final_result.csv](https://github.com/SATYAJEETBEDI/Topsis2-Satyajeet-102117170/blob/main/final_result.csv)
 
 A graph was plotted of each model and its topsis score which is 
+<img width="877" alt="Topsis_Graph" src="https://raw.githubusercontent.com/SATYAJEETBEDI/Topsis2-Satyajeet-102117170/main/Topsis_Graph.png">
