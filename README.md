@@ -8,7 +8,7 @@ The dataset was taken from hugging face
 1. Factual correctness: 
 With reference to the human-written summary, the produced summary's correctness in capturing the substance of the original discourse is measured. Better factual information representation is indicated by higher factual correctness.
 
-2.Fluency: 
+2. Fluency: 
 Fluency gauges the resulting summary's comprehensibility and readability. Summaries with higher fluency sound smoother and more authentic.
  
 3. Content Coverage: 
