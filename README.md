@@ -3,8 +3,6 @@ In this assignment we had to apply topsis to find the best pre-trained model for
 
 The dataset was taken from hugging face
 
-The original dataset was having 12500 rows so I reduced the size of rows(you can use the whole train_df if you need better understanding but for the sake of simplicity I reduced the rows)
-
 ## I have taken 4 parameters for each text summarization model which are:
 ### 1.Semantic Coherence:
 Impact: Semantic coherence measures how well the generated summary maintains the logical flow and coherence of the original dialogue. Higher semantic coherence indicates better flow and coherence.
