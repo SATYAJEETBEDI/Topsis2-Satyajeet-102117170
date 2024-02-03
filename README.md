@@ -3,28 +3,27 @@ In this assignment we had to apply topsis to find the best pre-trained model for
 
 The dataset was taken from hugging face
 
-## I have taken 4 parameters for each text summarization model which are:
-### 1.Semantic Coherence:
-Impact: Semantic coherence measures how well the generated summary maintains the logical flow and coherence of the original dialogue. Higher semantic coherence indicates better flow and coherence.
-### 2.Factual Accuracy:
-Impact: Factual accuracy evaluates how accurately the generated summary represents the content of the original dialogue compared to the human-written summary. Higher factual accuracy indicates better representation of factual information.
-### 3.Content Coverage:
-Impact: Content coverage assesses the extent to which the generated summary covers important information from the dialogue. Higher content coverage indicates better coverage of relevant information.
-### 4.Fluency:
-Impact: Fluency measures the readability and coherence of the generated summary. Higher fluency indicates smoother and more natural-sounding summaries.
+# For every text summarization model, I have selected four parameters, which are:
+
+1. Factual correctness: 
+With reference to the human-written summary, the produced summary's correctness in capturing the substance of the original discourse is measured. Better factual information representation is indicated by higher factual correctness.
+
+2.Fluency: 
+Fluency gauges the resulting summary's comprehensibility and readability. Summaries with higher fluency sound smoother and more authentic.
+ 
+3. Content Coverage: 
+This metric evaluates how well the produced synopsis incorporates significant details from the conversation. More content coverage denotes more thorough covering of pertinent data.
+
+4. Semantic Coherence: 
+Semantic coherence gauges how effectively the summary that is produced preserves the original dialogue's logical flow and coherence. Improved coherence and flow are indicated by higher semantic coherence.
 
 ## The pretrained models that I have used are:
-### 1.facebook/bart-large-cnn
-### 2.t5-large
-### 3.sshleifer/distilbart-cnn-12-6
-### 4.google/pegasus-large
-### 5.allenai/led-large-16384-arxiv
+### 1.sshleifer/distilbart-cnn-12-6
+### 2.google/pegasus-large
+### 3.facebook/bart-large-cnn
+### 4.allenai/led-large-16384-arxiv
+### 5.t5-large
 
-The results were stored in [evaluation_results.csv](https://github.com/SATYAJEETBEDI/Topsis2-Satyajeet-102117170/blob/main/evaluation_results.csv)
-
-On this csv file Topsis was performed using my own package at Pypi which can be installed and used as:
-#### Installation
-```pip install Topsis-Satyajeet-102117170```
 #### Usage
 ```Topsis evaluation_results.csv "1,1,1,1" "+,+,+,+" final_result.csv```
 The result with topsis was stored in [final_result.csv](https://github.com/SATYAJEETBEDI/Topsis2-Satyajeet-102117170/blob/main/final_result.csv)
